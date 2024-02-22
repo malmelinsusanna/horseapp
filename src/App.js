@@ -1,24 +1,27 @@
-import logo from './logo.svg';
 import './App.css';
+import React from "react";
+import { BrowserRouter as Router, Link, Routes, Route, useNavigate, useLocation } from 'react-router-dom';
+import Navigation from "./components/navigation.js";
+import Etusivu from "./pages/etusivu.js";
+import Hevonen from "./pages/hevonen";
+import Rodut from "./pages/rodut";
+import Ratsastus from "./pages/ratsastus";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Navigation>
+        <Routes>
+            <Route path="/heposet" element={<Etusivu />} />
+            <Route path="/hevonen" element={<Hevonen />} />
+            <Route path="/rodut" element={<Rodut />} />
+            <Route path="/ratsastus" element={<Ratsastus />} />
+
+        </Routes>
+
+      </Navigation>
+
+    </Router>
   );
 }
 
