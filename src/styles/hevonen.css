@@ -1,0 +1,26 @@
+
+.hevonen-container {
+    height: 170vh;
+}
+
+.hevonen-title {
+    font-family: Constantia;
+    font-size: xxx-large;
+    text-align: center;
+    top: 20%;
+    left: 10%;
+    right: 10%;
+    padding: 5%;
+}
+
+.hevonen-text {
+    font-family: Constantia;
+    font-size: xx-large;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 5%;
+    background-color: lightgray;
+    opacity: 70%;
+    border-radius: 15%;
+}

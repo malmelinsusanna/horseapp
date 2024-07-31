@@ -1,0 +1,23 @@
+
+
+.frontpage-container {
+    height: 170vh;
+}
+
+.frontpage-text {
+    display: block;
+    font-family: Constantia;
+    position: absolute;
+    font-size: xx-large;
+    text-align: center;
+    top: 30%;
+    left: 10%;
+    right: 10%;
+    background-color: lightgray;
+    opacity: 70%;
+    border-radius: 5%;
+}
+
+body, html{
+    height: 130%
+}

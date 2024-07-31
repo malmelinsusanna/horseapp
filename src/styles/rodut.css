@@ -1,0 +1,46 @@
+
+.rodut-container {
+    height: 170vh;
+}
+
+.rodut-image-container {
+    height: 100vh;
+    margin-left: 5%;
+}
+
+.rodut-title {
+    display: flex;
+    font-size: xxx-large;
+    text-align: center;
+    padding: 5%;
+    margin-left: 30%;
+    font-family: Constantia;
+
+}
+
+.rodut-titles {
+    font-size: xx-large;
+    text-align: left;
+    margin-left: 10%;
+}
+
+.rodut-text  {
+    display: flex;
+    font-size: x-large;
+    text-align: left;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    border-radius: 20px;
+
+}
+
+.rodut-image {
+    margin-left: 5%;
+    width: 50%;
+    height: 15%;
+    border-radius: 15%;
+
+}

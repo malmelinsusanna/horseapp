@@ -10,17 +10,13 @@ import Ratsastus from "./pages/ratsastus";
 function App() {
   return (
     <Router>
-      <Navigation>
+      <Navigation/>
         <Routes>
-            <Route path="/heposet" element={<Etusivu />} />
+            <Route path="/" element={<Etusivu />} />
             <Route path="/hevonen" element={<Hevonen />} />
             <Route path="/rodut" element={<Rodut />} />
             <Route path="/ratsastus" element={<Ratsastus />} />
-
         </Routes>
-
-      </Navigation>
-
     </Router>
   );
 }

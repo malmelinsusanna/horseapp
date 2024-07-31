@@ -1,0 +1,35 @@
+
+.ratsastus-container {
+    height: 170vh;
+}
+
+.ratsastus-title {
+    display: flex;
+    font-size: xxx-large;
+    text-align: center;
+    font-family: Constantia;
+    top: 20%;
+    left: 10%;
+    right: 10%;
+    margin-top: 5%;
+    margin-left: 30%;
+}
+
+.ratsastus-text {
+
+    display: flex;
+    font-size: xx-large;
+    text-align: center;
+    font-family: Constantia;
+    top: 20%;
+    left: 10%;
+    right: 10%;
+    padding: 5%;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 40%;
+
+}
+
+.map {
+    opacity: 0;
+}
