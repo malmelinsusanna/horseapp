@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/horseapp/static/css/main.4b160949.css",
+    "main.js": "/horseapp/static/js/main.5985928c.js",
+    "static/js/453.0fa1425b.chunk.js": "/horseapp/static/js/453.0fa1425b.chunk.js",
+    "static/media/image_2.JPG": "/horseapp/static/media/image_2.5e4e14045073b84f2514.JPG",
+    "static/media/image_1.JPG": "/horseapp/static/media/image_1.f13be0962fb5e104acea.JPG",
+    "static/media/image_4.JPG": "/horseapp/static/media/image_4.916b063cffd9abc703d8.JPG",
+    "static/media/background_image.jpg": "/horseapp/static/media/background_image.7250ee02b172c24a8ceb.jpg",
+    "static/media/image_5.jpeg": "/horseapp/static/media/image_5.3223e2a503dcf596147c.jpeg",
+    "static/media/image_3.jpeg": "/horseapp/static/media/image_3.7a8524a4a0015b95b78a.jpeg",
+    "index.html": "/horseapp/index.html",
+    "main.4b160949.css.map": "/horseapp/static/css/main.4b160949.css.map",
+    "main.5985928c.js.map": "/horseapp/static/js/main.5985928c.js.map",
+    "453.0fa1425b.chunk.js.map": "/horseapp/static/js/453.0fa1425b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4b160949.css",
+    "static/js/main.5985928c.js"
+  ]
+}
